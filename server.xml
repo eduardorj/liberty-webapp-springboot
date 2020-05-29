@@ -1,0 +1,11 @@
+<server description="default servlet engine">
+
+    <!-- Enable features -->
+    <featureManager>
+        <feature>servlet-3.1</feature>
+        <feature>springBoot-2.0</feature>
+    </featureManager>
+
+    <httpEndpoint host="*" httpPort="8080" httpsPort="-1"/>
+
+</server>
