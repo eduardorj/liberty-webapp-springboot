@@ -1,11 +1,7 @@
 FROM websphere-liberty:webProfile8
 
-RUN mkdir /config/dropins/spring
-
 COPY --chown=1001:0  server.xml /config/
 
-COPY --chown=1001:0  demo-0.0.1-SNAPSHOT.jar /config/dropins/spring/
-
-RUN installUtility install springBoot-2.0
+COPY --chown=1001:0  hello-world-ear-1.0-20200624.191550-12.ear /config/dropins/
 
 RUN configure.sh
