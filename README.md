@@ -2,6 +2,6 @@
 
 - docker build -t app .
 
-- docker run -d -p 80:9080 app
+- docker run -d -p 80:8080 app
 
 - http://localhost/
