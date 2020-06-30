@@ -1,7 +1,7 @@
-FROM websphere-liberty:webProfile8
+FROM websphere-liberty
 
 COPY --chown=1001:0  server.xml /config/
 
-COPY --chown=1001:0  hello-world-ear-1.0-20200624.191550-12.ear /config/dropins/
+COPY --chown=1001:0  Sample1.war /config/dropins/
 
-RUN configure.sh
+#RUN configure.sh
