@@ -2,10 +2,8 @@
 
 - docker build -t app .
 
-- docker run -d -p 80:8080 app
+- docker run -d -p 9080:9080 app
 
-<<<<<<< HEAD
-- http://localhost/Sample1/SimpleServlet
-=======
-- http://localhost/
->>>>>>> 09f37e3... readme changes
+- http://localhost:9080
+
+
