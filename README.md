@@ -5,5 +5,3 @@
 - docker run -d -p 9080:9080 app
 
 - http://localhost:9080
-
-
